@@ -15,6 +15,9 @@ int digitcount;
 //stores the option that the user has selected
 int option;
 
+//check if the card number passed Luhn's test
+int passed_test;
+
 int main() 
 {
 	//code is contained in the for loop so that it restarts after an option has been processed such as testing a card
@@ -32,7 +35,7 @@ int main()
 
 			convert();
 
-			//runs the test procedure that corresponds with the number of digits the suer has entered
+			//runs the test procedure that corresponds with the number of digits the user has entered
 			if (digitcount == 16)
 			{
 				test();
@@ -46,7 +49,11 @@ int main()
 				printf("your card number has an invalid number of digits\n");
 			}
 			//runs the card type checking procedure
-			type();
+			if (passed_test == 1)
+			{
+				type();
+			}
+			
 		}
 		else if (option == 2)
 		{
@@ -179,10 +186,15 @@ int test()
 		final_num = sum_even + sum_odd;
 
 		last_num = final_num%10;
-		if (last_num == 0) { printf("your card number passed Luhn's test\n"); }
+		if (last_num == 0) 
+		{ 
+			printf("your card number passed Luhn's test\n");
+			passed_test = 1;
+		}
 		else
 		{
 			printf("your card number failed the Luhn's test\n");
+			passed_test = 2;
 		}
 		return 0;
 }
@@ -301,7 +313,7 @@ int type()
 	}
 
 	//checks if the number is a master card
-	else if (larray[0] == 5 && larray[1] < 5 && larray[1] > 0)
+	else if (larray[0] == 5 && larray[1] <= 5 && larray[1] > 0)
 	{
 		printf(" you have a Master card \n");
 	}

@@ -1,19 +1,19 @@
-﻿Build started 05/12/2015 19:09:31.
-     1>Project "C:\Users\Luke\OneDrive\procedual porgramming\card checker\card calc\card calc.vcxproj" on node 2 (Build target(s)).
+﻿Build started 06/12/2015 13:50:43.
+     1>Project "C:\Users\Luke\OneDrive\GitHub\home_project\card checker\card calc\card calc.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
          Source.c
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(22): warning C4013: 'cardinput' undefined; assuming extern returning int
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(23): warning C4013: 'digitcheck' undefined; assuming extern returning int
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(26): warning C4013: 'convert' undefined; assuming extern returning int
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(29): warning C4013: 'test' undefined; assuming extern returning int
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(33): warning C4013: 'test2' undefined; assuming extern returning int
-     1>c:\users\luke\onedrive\procedual porgramming\card checker\card calc\source.c(40): warning C4013: 'type' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(30): warning C4013: 'cardinput' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(33): warning C4013: 'digitcheck' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(36): warning C4013: 'convert' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(41): warning C4013: 'test' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(45): warning C4013: 'test2' undefined; assuming extern returning int
+     1>c:\users\luke\onedrive\github\home_project\card checker\card calc\source.c(54): warning C4013: 'type' undefined; assuming extern returning int
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\OneDrive\procedual porgramming\card checker\Debug\card calc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Luke\OneDrive\procedual porgramming\card checker\Debug\card calc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\OneDrive\procedual porgramming\card checker\Debug\card calc.lib" /MACHINE:X86 Debug\Source.obj
-         card calc.vcxproj -> C:\Users\Luke\OneDrive\procedual porgramming\card checker\Debug\card calc.exe
-     1>Done Building Project "C:\Users\Luke\OneDrive\procedual porgramming\card checker\card calc\card calc.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Luke\OneDrive\GitHub\home_project\card checker\Debug\card calc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Luke\OneDrive\GitHub\home_project\card checker\Debug\card calc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Luke\OneDrive\GitHub\home_project\card checker\Debug\card calc.lib" /MACHINE:X86 Debug\Source.obj
+         card calc.vcxproj -> C:\Users\Luke\OneDrive\GitHub\home_project\card checker\Debug\card calc.exe
+     1>Done Building Project "C:\Users\Luke\OneDrive\GitHub\home_project\card checker\card calc\card calc.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:00.88
