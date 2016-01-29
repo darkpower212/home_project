@@ -1,0 +1,8 @@
+﻿  Source.c
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(27): warning C4013: 'cardinput' undefined; assuming extern returning int
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(30): warning C4013: 'digitcheck' undefined; assuming extern returning int
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(33): warning C4013: 'convert' undefined; assuming extern returning int
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(38): warning C4013: 'test' undefined; assuming extern returning int
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(42): warning C4013: 'test2' undefined; assuming extern returning int
+c:\users\luke\downloads\task p4 and p6\card checker\card calc\source.c(51): warning C4013: 'type' undefined; assuming extern returning int
+  card calc.vcxproj -> C:\Users\Luke\Downloads\task P4 and P6\card checker\Debug\card calc.exe
